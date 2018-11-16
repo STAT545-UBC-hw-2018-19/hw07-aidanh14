@@ -1,0 +1,45 @@
+---
+title: "Vignette Title"
+author: "Vignette Author"
+date: "`r Sys.Date()`"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{Vignette Title}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r setup, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+The `root()` function is useful for taking the square root, but we know we can already do that with `sqrt()`. So why is it useful?
+
+```{r}
+library(powers)
+```
+
+
+How about taking the cube root!
+
+```{r}
+root(64, 3)
+```
+
+You can take the cube root of a vector of multiple values as well.
+
+```{r}
+my_values <- c(125, 216)
+root(my_values, 3)
+```
+
+Any higher degree root will work too, whatever you need!
+
+```{r}
+root(243, 5)
+```
+
+*Have fun out there with `root()`!*

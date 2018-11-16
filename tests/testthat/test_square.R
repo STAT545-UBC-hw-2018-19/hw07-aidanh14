@@ -12,3 +12,4 @@ test_that("Logicals automatically convert to numeric.", {
     expect_identical(square(logic_vec), logic_vec^2)
     expect_identical(cube(logic_vec), logic_vec^3)
 })
+
