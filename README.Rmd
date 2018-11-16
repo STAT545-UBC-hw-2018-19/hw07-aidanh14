@@ -14,6 +14,8 @@ knitr::opts_chunk$set(
 
 [![Build Status](https://travis-ci.org/vincenzocoia/powers.svg?branch=master)](https://travis-ci.org/vincenzocoia/powers)
 
+**This package was originally created by Vincenzo Coia, original version can be found here:** https://github.com/vincenzocoia/powers
+
 __Note__: This R package is not mean to be "serious". It's just for teaching purposes. 
 
 # powers

@@ -2,4 +2,5 @@
 
 export(cube)
 export(reciprocal)
+export(root)
 export(square)
